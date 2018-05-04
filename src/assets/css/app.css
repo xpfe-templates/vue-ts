@@ -1,0 +1,17 @@
+@import url('./mixin.css');
+
+body {
+  -webkit-overflow-scrolling: touch;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial,
+    sans-serif;
+  color: #333;
+  font-size: 28px;
+}
+
+/* vw方案适配 */
+img {
+  content: normal !important;
+}
