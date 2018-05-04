@@ -1,5 +1,8 @@
 <template>
-  <div class="index">{{date | formatDate('hh:mm:ss') }} hello, {{name}}</div>
+  <div class="index">
+    <img class="index-logo" src="~@/assets/img/logo.png" alt="">
+    <div class="index-text">{{date | formatDate('hh:mm:ss') }} hello, {{name}}</div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -28,5 +31,13 @@ export default class Index extends Vue {
 <style lang="postcss" scoped>
 .index {
   text-align: center;
+  &-logo {
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+  }
+  &-text {
+    margin-top: 20px;
+  }
 }
 </style>

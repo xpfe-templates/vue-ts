@@ -11,5 +11,9 @@ module.exports = {
     hotOnly: false,
     proxy: null, // string | Object
     before: app => {}
+  },
+  // pwa设置
+  pwa: {
+    themeColor: '#2591D0'
   }
 }

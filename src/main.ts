@@ -25,7 +25,7 @@ Object.keys(filters).forEach(key => {
 
 Vue.config.productionTip = false
 
-const init = new Vue({
+new Vue({
   el: '#app',
   store,
   router,
